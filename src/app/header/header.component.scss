@@ -1,0 +1,71 @@
+.background {
+    height: 50vh;
+    background-color: #3ECDC4;
+    display: flex;
+    overflow: hidden;
+    color: #F7FFF7;
+    font-family: Verdana, sans-serif;
+}
+
+.title {
+    width: 50%;
+    height: 100%;
+}
+
+.title h1 {
+    margin: 0;
+    margin-left: 35%;
+    padding: 0;
+}
+
+.title button {
+    width: 12%;
+    height: 35px;
+    margin-left: 35%;
+    margin-top: 2%;
+    transition-duration: .2s;
+    border: none;
+    border-radius: 12px;
+    background-color: #F7FFF7;
+    color: #3ECDC4;
+    font-family: Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.title button:hover {
+    width: 14%;
+    transition-duration: .2s;
+}
+
+//.title button:
+
+.design {
+    width: 50%;
+    height: 100%;
+    display: inline;
+}
+
+.margin-top {
+    height: 10vh;
+}
+
+.circle {
+    width: 500px;
+    height: 500px;
+    background-color: #0CBFB4;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.circle img {
+    width: 42px;
+    height: 211px;
+    margin-top: 55%;
+    transition-duration: .2s;
+}
+
+.circle img:hover {
+    margin-top: 40%;
+    transition-duration: .5s;
+}
